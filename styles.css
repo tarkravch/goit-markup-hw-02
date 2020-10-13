@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body a {
+  color: #000;
+  text-decoration: none;
+}
+body li {
+  list-style: none;
+}
+.nav-container {
+}
+.logo-top {
+  color: #000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.bluetext {
+  color: #3da3f4;
+}
+.menu {
+}
+.nav-item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contacts {
+}
+.contacts-item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.nav-item:hover {
+  color: #3da3f4;
+}
+.contacts-item:hover {
+  color: #3da3f4;
+  text-decoration: underline;
+}
+
+.hero {
+}
+.hero {
+}
+.advantage-container {
+}
+.advantage-list-container {
+}
+.advantage-item {
+}
+.adavantage-title {
+}
+.advantage-text {
+}
+.occupation {
+}
+.occupation-container {
+}
+.occupation-item {
+}
+.team {
+}
+.team-container {
+}
+.team-item {
+}
+.description {
+}
+.logo-bottom {
+}
+.address {
+}
+.address-list {
+}
+.address-item {
+}
