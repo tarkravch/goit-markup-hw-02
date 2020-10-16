@@ -41,10 +41,10 @@
   --background-team-color: #f5f4fa;
   --nav-and-title-color: #212121;
   --contacts-paragraph-employee-position-color: #757575;
-  --blue-text-color: #3da3f4;
+  --blue-text-color: #2196f3;
   --background-dark-color: #2f303a;
+  --background-button-color: #f5f4fa;
   --address-link-color: rgba(255, 255, 255, 0.6);
-  --focus-color: #ff0000;
 }
 body {
   background-color: var(--primary-white-color);
@@ -55,7 +55,7 @@ body a {
   text-decoration: none;
 }
 body a:focus {
-  color: var(--focus-color);
+  color: var(--blue-text-color);
 }
 
 body li {
@@ -224,16 +224,21 @@ body li {
 }
 .filter {
 }
+
 .filter-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--nav-and-title-color);
+  background-color: var(--background-button-color);
+  border: transparent;
 }
 
-.filter-item:hover {
-  color: var(--blue-text-color);
+.filter-item:hover,
+.filter-item:focus {
+  background-color: var(--blue-text-color);
+  color: var(--primary-white-color);
 }
 .project-container {
 }
